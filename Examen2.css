@@ -1,0 +1,303 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+	list-style: none;
+}
+
+.DIP{
+	background-color:black;
+	width: 100%;
+	position: fixed;
+	padding: 	15px 0px;
+}
+.DIP .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-left: 70px;
+}
+.Dip1 a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;	
+}
+.Dip1 a span {
+	color: gold;
+}
+.formulaire{
+	margin-top: 20px;
+}
+.Dip2{
+	margin-top: 6px;
+}
+.Dip2 li{
+	display: inline-block;
+}
+.Dip2 li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.Dip2 li a:hover{
+	color:gold;
+}
+.mn ::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+}
+.DIP .Dip2 li:hover .sous{ 
+        display: block;
+}
+.DDG {
+	font-size: 70px;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	color: gold;
+	background: grey;
+}
+
+/**********************************************************************************************************************************/
+.record{
+ display: flex;
+ background: grey;
+
+}
+.remu {
+  font-size: 30px;
+  font-family:Forte;
+  margin-left: 15px;
+  margin-top: 30px;
+
+}
+.remu span {
+    color: gold;
+    font-family: Algerian;
+    font-size: 50px
+}
+.mussiba{
+    margin-left: 9px;
+    margin-top: 10px;
+     box-shadow:  10px 10px 18px;
+
+}
+/**********************************************************************************************************************************/
+.record1{
+display: flex;
+ background: blue	;
+
+}
+.pepsi{
+font-size: 30px;
+  font-family:Forte;
+  margin-left: 15px;
+  margin-top: 50px;
+  color: white;
+}
+.pepsi span{
+  color: red;
+  font-family:Algerian;
+  font-size: 50px
+ 
+}
+.egerie{
+   margin-left: 9px;
+    margin-top: 10px;
+     box-shadow:  10px 10px 18px;
+}
+/**************************************************************************************************************************************/
+.record2{
+display: flex;
+ background: #B8860B;
+
+}
+.vente{
+font-size: 25px;
+  font-family:Arial black;
+  margin-left: 15px;
+  margin-top: 70px;
+  color: white;
+}
+.vente span{
+  color: black;
+  font-family:Algerian;
+  font-size: 40px
+}
+.tlk {
+   margin-left: 9px;
+    margin-top: 10px;
+    box-shadow:  10px 10px 18px;
+  
+}
+/**********************************************************************************************************************************/
+.record3{
+display: flex;
+ background: #006400;
+
+}
+.ventelnn{
+font-size: 25px;
+  font-family:Arial black;
+  margin-left: 15px;
+  margin-top: 50px;
+  color: white;
+}
+.ventelnn span{
+  color: yellow;
+  font-family:Algerian;
+  font-size: 30px
+ 
+ 
+}
+.lnn {
+   margin-left: 9px;
+    margin-top: 10px;
+    box-shadow:  10px 10px 18px;
+  
+
+}
+/********************************************************************************************************/
+.record4{
+display: flex;
+ background: #00008B;
+
+}
+.signature{
+font-size: 40px;
+  font-family:Forte;
+  margin-left: 15px;
+  margin-top: 70px;
+  color: white;
+}
+.signature span{
+  color: skyblue;
+  font-family:Algerian;
+  font-size: 50px
+ 
+}
+.tigo{
+   margin-left: 9px;
+    margin-top: 10px;
+    box-shadow:  10px 10px 18px;
+  
+
+   }
+/**********************************************************************************************************************************/
+.freeg{
+ display: flex;
+ background: red;
+ 
+}
+.egeriefree {
+  font-size: 60px;
+  font-family:Forte;
+  margin-left: 15px;
+  margin-top: 30px;
+
+}
+.egeriefree span {
+    color: white;
+    font-family: Algerian;
+    font-size: 70px
+}
+.free{
+    margin-left: 9px;
+    margin-top: 10px;
+     box-shadow:  10px 10px 18px;
+}
+.freetof{
+	  box-shadow:  10px 10px 18px blacks;
+}
+
+/***********************************************************************************************************************************/
+.record6{
+ display: flex;
+ background: black;
+ 
+}
+.amb {
+  font-size: 60px;
+  font-family:Forte;
+  margin-left: 15px;
+  margin-top: 50px;
+  color: white;
+
+}
+.amb span {
+    color: #FFE4C4;
+    font-family: Algerian;
+    font-size: 60px
+}
+.itel .itel1{
+    margin-left: 9px;
+    margin-top:10px;
+     box-shadow:  10px 10px 18px;
+}
+.itel{
+	box-shadow:  10px 10px 18px;
+}
+.itel1{
+	box-shadow:  10px 10px 18px white;
+}
+
+/***********************************************************************************************************************************/
+
+.record7{
+ display: flex;
+ background: grey;
+ 
+}
+.concert {
+  font-size: 60px;
+  font-family:Arial Black;
+  margin-left: 15px;
+  margin-top: 30px;
+  color: white;
+
+}
+.concert span {
+    color: gold;
+    font-family: Lucida Calligraphy;
+    font-size: 50px;
+}
+.con{
+    margin-left: 9px;
+    margin-top: 10px;
+     box-shadow:  10px 10px 18px;
+
+}
+
+
+/**************************************************************************************************************************************/
+.End{
+       width: 100%;
+       height: 40px;
+       background: black;
+       text-align: center;
+       padding-top:20px; 
+       color: white;
+       font-size: 20px;
+ }
+ .End span{
+
+     color: gold;
+       
+ }

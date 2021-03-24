@@ -1,0 +1,272 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+	list-style: none;
+}
+
+.DIP{
+	background-color:black;
+	width: 100%;
+	position: fixed;
+	padding: 	15px 0px;
+}
+.DIP .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-left: 70px;
+}
+.Dip1 a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;	
+}
+.Dip1 a span {
+	color: gold;
+}
+.formulaire{
+	margin-top: 20px;
+}
+.Dip2{
+	margin-top: 6px;
+}
+.Dip2 li{
+	display: inline-block;
+}
+.Dip2 li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.Dip2 li a:hover{
+	color:gold;
+}
+.mn ::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+}
+.DIP .Dip2 li:hover .sous{ 
+        display: block;
+ }
+/********************************************************************************************************************************/
+.titre{
+	font-size: 60px;
+	text-align:center;
+	font-family:Goudy Stout;
+	text-decoration: underline;
+	color: black;
+	background: gold;
+
+
+
+
+}
+.projet{
+	text-align: center;
+	background: grey;
+
+}
+
+.img1{
+    display: none;
+    position: absolute;
+
+
+
+   
+}
+.img1  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img1 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img1 li a{
+	color:white;
+	transition: color 2s;
+}
+.td1 img{
+	 box-shadow:  10px 10px 18px black;
+}
+ .projet .td1 li:hover .img1{ 
+        display: block;
+ }
+ /*******************************************************************************************************************************/
+ .img2{
+    display: none;
+    position: absolute;
+}
+.img2  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img2 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img2 li a{
+	color:white;
+	transition: color 2s;
+}
+.td2 img{
+	 box-shadow:  10px 10px 18px;
+}
+ .projet .td2 li:hover .img2{ 
+        display: block;
+ }
+ /***********************************************************************************************************************************/
+ .img3{
+    display: none;
+    position: absolute;
+}
+.img3  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img3 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img3 li a{
+	color:white;
+	transition: color 2s;
+}
+.td3 img{
+	 box-shadow:  10px 10px 18px;
+}
+ .projet .td3 li:hover .img3{ 
+        display: block;
+ }
+ /***********************************************************************************************************************************/
+ .img4{
+    display: none;
+    position: absolute;
+
+}
+.img4  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img4 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img4 li a{
+	color:white;
+	transition: color 2s;
+}
+.td4 img{
+	 box-shadow:  10px 10px 18px;
+}
+
+ .projet .td4 li:hover .img4{ 
+        display: block;
+ }
+ /********************************************************************************************************************************/
+ .img5{
+    display: none;
+    position: absolute;
+}
+.img5  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img5 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img5 li a{
+	color:white;
+	transition: color 2s;
+}
+.td5 img{
+	 box-shadow:  10px 10px 18px;
+}
+ .projet .td5 li:hover .img5{ 
+        display: block;
+ }
+ /**********************************************************************************************************************************/
+ .img6{
+    display: none;
+    position: absolute;
+}
+.img6  li{
+    border: 2px solid gold;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.img6 li a:hover{
+	color:gold;
+	transition: color 2s;
+}
+.img6 li a{
+	color:white;
+	transition: color 2s;
+}
+.td6 img{
+	 box-shadow:  10px 10px 18px;
+}
+ .projet .td6 li:hover .img6{ 
+        display: block;
+
+ }
+
+/********************************************************************************************************************************/
+.End{
+       width: 100%;
+       height: 40px;
+       background: black;
+       text-align: center;
+       padding-top:20px; 
+       color: white;
+       font-size: 20px;
+ }
+ .End span{
+
+     color: gold;
+       
+ }
